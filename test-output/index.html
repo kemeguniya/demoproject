@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Demo_Project">
+              <span class="suite-name border-failed">Demo_Project</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Demo_Project">
+                    <span>C:\Users\Admin\eclipse-workspace\demoproject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Demo_Project">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Demo_Project">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Demo_Project">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Demo_Project">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo_Project">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Demo_Project">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 2 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Demo_Project" class="hide-methods failed suite-Demo_Project"> (hide)</a> <!-- hide-methods failed suite-Demo_Project -->
+                      <a href="#" panel-name="suite-Demo_Project" class="show-methods failed suite-Demo_Project"> (show)</a> <!-- show-methods failed suite-Demo_Project -->
+                    </span>
+                    <div class="method-list-content failed suite-Demo_Project">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="dropable_test">dropable_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="selectable_test">selectable_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Demo_Project -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Demo_Project" class="hide-methods passed suite-Demo_Project"> (hide)</a> <!-- hide-methods passed suite-Demo_Project -->
+                      <a href="#" panel-name="suite-Demo_Project" class="show-methods passed suite-Demo_Project"> (show)</a> <!-- show-methods passed suite-Demo_Project -->
+                    </span>
+                    <div class="method-list-content passed suite-Demo_Project">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="Element_test">Element_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="Practice_test">Practice_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="accordion_test">accordion_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="alert_test">alert_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="alerts_test">alerts_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="auto_complete_test">auto_complete_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="broken_image_test">broken_image_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="browser_window_test">browser_window_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="button1_test">button1_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="buttons2_test">buttons2_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="checkbox_test">checkbox_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="draggable_test">draggable_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="dynamicproperties_test">dynamicproperties_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="gettext_box_test">gettext_box_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="gettitle">gettitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="interations_test">interations_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="link_new_windows_test">link_new_windows_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="link_test">link_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="menu_test">menu_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="model_dialog_test">model_dialog_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="nested_frames_test">nested_frames_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="new_tab_test">new_tab_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="progress_bar_test">progress_bar_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="radiobutton_test">radiobutton_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="resizable_test">resizable_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="select_menu_test">select_menu_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="sortable_test">sortable_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="tabs_test">tabs_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="tool_tips_test">tool_tips_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="webtable_test">webtable_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Project" title="Test.Demo_Project_Test" hash-for-method="widget_test">widget_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Demo_Project -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demo_Project" class="panel Demo_Project">
+          <div class="suite-Demo_Project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.Demo_Project_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropable_test">
+                  </a> <!-- dropable_test -->
+                  <span class="method-name">dropable_test</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GGSP716&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.util.LinkedHashMap$LinkedValues.forEach(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at Page.Demo_Project_Page.clickon_dropable(Demo_Project_Page.java:697)
+	at Test.Demo_Project_Test.dropable_test(Demo_Project_Test.java:237)
+	at java.util.ArrayList.forEach(Unknown Source)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GGSP716&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 38 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 50 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;drag1&apos;]&quot;}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GGSP716&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:24703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c42b878c85949599003bcc60fff5e09
+*** Element info: {Using=xpath, value=//*[@id=&apos;drag1&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 55 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectable_test">
+                  </a> <!-- selectable_test -->
+                  <span class="method-name">selectable_test</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@class=&apos;list-group&apos;]/li) because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@class=&apos;list-group&apos;]/li)&apos; is not a valid XPath expression.
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GGSP716&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:24703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c42b878c85949599003bcc60fff5e09
+*** Element info: {Using=xpath, value=//*[@class=&apos;list-group&apos;]/li)}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at com.sun.proxy.$Proxy10.size(Unknown Source)
+	at Page.Demo_Project_Page.clickon_selectable(Demo_Project_Page.java:672)
+	at Test.Demo_Project_Test.selectable_test(Demo_Project_Test.java:224)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Project-class-failed -->
+          <div class="suite-Demo_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Demo_Project_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Element_test">
+                  </a> <!-- Element_test -->
+                  <span class="method-name">Element_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Practice_test">
+                  </a> <!-- Practice_test -->
+                  <span class="method-name">Practice_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accordion_test">
+                  </a> <!-- accordion_test -->
+                  <span class="method-name">accordion_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alert_test">
+                  </a> <!-- alert_test -->
+                  <span class="method-name">alert_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alerts_test">
+                  </a> <!-- alerts_test -->
+                  <span class="method-name">alerts_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="auto_complete_test">
+                  </a> <!-- auto_complete_test -->
+                  <span class="method-name">auto_complete_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="broken_image_test">
+                  </a> <!-- broken_image_test -->
+                  <span class="method-name">broken_image_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="browser_window_test">
+                  </a> <!-- browser_window_test -->
+                  <span class="method-name">browser_window_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="button1_test">
+                  </a> <!-- button1_test -->
+                  <span class="method-name">button1_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buttons2_test">
+                  </a> <!-- buttons2_test -->
+                  <span class="method-name">buttons2_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkbox_test">
+                  </a> <!-- checkbox_test -->
+                  <span class="method-name">checkbox_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="draggable_test">
+                  </a> <!-- draggable_test -->
+                  <span class="method-name">draggable_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dynamicproperties_test">
+                  </a> <!-- dynamicproperties_test -->
+                  <span class="method-name">dynamicproperties_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gettext_box_test">
+                  </a> <!-- gettext_box_test -->
+                  <span class="method-name">gettext_box_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gettitle">
+                  </a> <!-- gettitle -->
+                  <span class="method-name">gettitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="interations_test">
+                  </a> <!-- interations_test -->
+                  <span class="method-name">interations_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="link_new_windows_test">
+                  </a> <!-- link_new_windows_test -->
+                  <span class="method-name">link_new_windows_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="link_test">
+                  </a> <!-- link_test -->
+                  <span class="method-name">link_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menu_test">
+                  </a> <!-- menu_test -->
+                  <span class="method-name">menu_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="model_dialog_test">
+                  </a> <!-- model_dialog_test -->
+                  <span class="method-name">model_dialog_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nested_frames_test">
+                  </a> <!-- nested_frames_test -->
+                  <span class="method-name">nested_frames_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="new_tab_test">
+                  </a> <!-- new_tab_test -->
+                  <span class="method-name">new_tab_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="progress_bar_test">
+                  </a> <!-- progress_bar_test -->
+                  <span class="method-name">progress_bar_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radiobutton_test">
+                  </a> <!-- radiobutton_test -->
+                  <span class="method-name">radiobutton_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resizable_test">
+                  </a> <!-- resizable_test -->
+                  <span class="method-name">resizable_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_menu_test">
+                  </a> <!-- select_menu_test -->
+                  <span class="method-name">select_menu_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortable_test">
+                  </a> <!-- sortable_test -->
+                  <span class="method-name">sortable_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tabs_test">
+                  </a> <!-- tabs_test -->
+                  <span class="method-name">tabs_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tool_tips_test">
+                  </a> <!-- tool_tips_test -->
+                  <span class="method-name">tool_tips_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webtable_test">
+                  </a> <!-- webtable_test -->
+                  <span class="method-name">webtable_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="widget_test">
+                  </a> <!-- widget_test -->
+                  <span class="method-name">widget_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Project-class-passed -->
+        </div> <!-- panel Demo_Project -->
+        <div panel-name="test-xml-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\demoproject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Demo_Project&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;smoke&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Demo_Project_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smoke --&gt;
+&lt;/suite&gt; &lt;!-- Demo_Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demo_Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">smoke (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demo_Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demo_Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demo_Project');
+function tableData_Demo_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dropable_test')
+data.setCell(0, 2, 'Test.Demo_Project_Test')
+data.setCell(0, 3, 20178);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'link_new_windows_test')
+data.setCell(1, 2, 'Test.Demo_Project_Test')
+data.setCell(1, 3, 12888);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'new_tab_test')
+data.setCell(2, 2, 'Test.Demo_Project_Test')
+data.setCell(2, 3, 11184);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'alerts_test')
+data.setCell(3, 2, 'Test.Demo_Project_Test')
+data.setCell(3, 3, 6274);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dynamicproperties_test')
+data.setCell(4, 2, 'Test.Demo_Project_Test')
+data.setCell(4, 3, 5306);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'select_menu_test')
+data.setCell(5, 2, 'Test.Demo_Project_Test')
+data.setCell(5, 3, 4903);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'link_test')
+data.setCell(6, 2, 'Test.Demo_Project_Test')
+data.setCell(6, 3, 2862);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'model_dialog_test')
+data.setCell(7, 2, 'Test.Demo_Project_Test')
+data.setCell(7, 3, 2402);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'webtable_test')
+data.setCell(8, 2, 'Test.Demo_Project_Test')
+data.setCell(8, 3, 2124);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Practice_test')
+data.setCell(9, 2, 'Test.Demo_Project_Test')
+data.setCell(9, 3, 2074);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'menu_test')
+data.setCell(10, 2, 'Test.Demo_Project_Test')
+data.setCell(10, 3, 1354);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkbox_test')
+data.setCell(11, 2, 'Test.Demo_Project_Test')
+data.setCell(11, 3, 1144);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'accordion_test')
+data.setCell(12, 2, 'Test.Demo_Project_Test')
+data.setCell(12, 3, 999);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tabs_test')
+data.setCell(13, 2, 'Test.Demo_Project_Test')
+data.setCell(13, 3, 980);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sortable_test')
+data.setCell(14, 2, 'Test.Demo_Project_Test')
+data.setCell(14, 3, 820);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'nested_frames_test')
+data.setCell(15, 2, 'Test.Demo_Project_Test')
+data.setCell(15, 3, 808);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'radiobutton_test')
+data.setCell(16, 2, 'Test.Demo_Project_Test')
+data.setCell(16, 3, 778);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'progress_bar_test')
+data.setCell(17, 2, 'Test.Demo_Project_Test')
+data.setCell(17, 3, 759);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'gettext_box_test')
+data.setCell(18, 2, 'Test.Demo_Project_Test')
+data.setCell(18, 3, 649);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'buttons2_test')
+data.setCell(19, 2, 'Test.Demo_Project_Test')
+data.setCell(19, 3, 483);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'auto_complete_test')
+data.setCell(20, 2, 'Test.Demo_Project_Test')
+data.setCell(20, 3, 370);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'draggable_test')
+data.setCell(21, 2, 'Test.Demo_Project_Test')
+data.setCell(21, 3, 201);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'widget_test')
+data.setCell(22, 2, 'Test.Demo_Project_Test')
+data.setCell(22, 3, 182);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'alert_test')
+data.setCell(23, 2, 'Test.Demo_Project_Test')
+data.setCell(23, 3, 136);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'selectable_test')
+data.setCell(24, 2, 'Test.Demo_Project_Test')
+data.setCell(24, 3, 129);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Element_test')
+data.setCell(25, 2, 'Test.Demo_Project_Test')
+data.setCell(25, 3, 124);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'gettitle')
+data.setCell(26, 2, 'Test.Demo_Project_Test')
+data.setCell(26, 3, 114);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'browser_window_test')
+data.setCell(27, 2, 'Test.Demo_Project_Test')
+data.setCell(27, 3, 112);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'button1_test')
+data.setCell(28, 2, 'Test.Demo_Project_Test')
+data.setCell(28, 3, 111);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tool_tips_test')
+data.setCell(29, 2, 'Test.Demo_Project_Test')
+data.setCell(29, 3, 105);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'broken_image_test')
+data.setCell(30, 2, 'Test.Demo_Project_Test')
+data.setCell(30, 3, 97);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'resizable_test')
+data.setCell(31, 2, 'Test.Demo_Project_Test')
+data.setCell(31, 3, 95);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'interations_test')
+data.setCell(32, 2, 'Test.Demo_Project_Test')
+data.setCell(32, 3, 86);
+window.suiteTableData['Demo_Project']= { tableData: data, tableDiv: 'times-div-Demo_Project'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Demo_Project">
+              </div> <!-- times-div-Demo_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demo_Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demo_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Demo_Project_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">shipgig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">gettitle</span>
+                <span class="method-start">6437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=gettitle status=SUCCESS method=Demo_Project_Test.gettitle()[pri:0, instance:Test.De...)</span>
+                <span class="method-start">6555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Practice_test</span>
+                <span class="method-start">6839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=Practice_test status=SUCCESS method=Demo_Project_Test.Practice_test()[pri:1, instan...)</span>
+                <span class="method-start">8914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Element_test</span>
+                <span class="method-start">9033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=Element_test status=SUCCESS method=Demo_Project_Test.Element_test()[pri:2, instance...)</span>
+                <span class="method-start">9159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">gettext_box_test</span>
+                <span class="method-start">9310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=gettext_box_test status=SUCCESS method=Demo_Project_Test.gettext_box_test()[pri:3, ...)</span>
+                <span class="method-start">9960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkbox_test</span>
+                <span class="method-start">10125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=checkbox_test status=SUCCESS method=Demo_Project_Test.checkbox_test()[pri:4, instan...)</span>
+                <span class="method-start">11270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">radiobutton_test</span>
+                <span class="method-start">11375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=radiobutton_test status=SUCCESS method=Demo_Project_Test.radiobutton_test()[pri:5, ...)</span>
+                <span class="method-start">12155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">webtable_test</span>
+                <span class="method-start">12293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=webtable_test status=SUCCESS method=Demo_Project_Test.webtable_test()[pri:6, instan...)</span>
+                <span class="method-start">14418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">button1_test</span>
+                <span class="method-start">14576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=button1_test status=SUCCESS method=Demo_Project_Test.button1_test()[pri:7, instance...)</span>
+                <span class="method-start">14688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">buttons2_test</span>
+                <span class="method-start">14839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=buttons2_test status=SUCCESS method=Demo_Project_Test.buttons2_test()[pri:8, instan...)</span>
+                <span class="method-start">15323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">link_test</span>
+                <span class="method-start">15481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=link_test status=SUCCESS method=Demo_Project_Test.link_test()[pri:9, instance:Test....)</span>
+                <span class="method-start">18344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">link_new_windows_test</span>
+                <span class="method-start">18461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=link_new_windows_test status=SUCCESS method=Demo_Project_Test.link_new_windows_test...)</span>
+                <span class="method-start">31349 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">dynamicproperties_test</span>
+                <span class="method-start">31470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=dynamicproperties_test status=SUCCESS method=Demo_Project_Test.dynamicproperties_te...)</span>
+                <span class="method-start">36777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">broken_image_test</span>
+                <span class="method-start">36895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=broken_image_test status=SUCCESS method=Demo_Project_Test.broken_image_test()[pri:1...)</span>
+                <span class="method-start">36994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alert_test</span>
+                <span class="method-start">37129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=alert_test status=SUCCESS method=Demo_Project_Test.alert_test()[pri:13, instance:Te...)</span>
+                <span class="method-start">37266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">browser_window_test</span>
+                <span class="method-start">37409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=browser_window_test status=SUCCESS method=Demo_Project_Test.browser_window_test()[p...)</span>
+                <span class="method-start">37521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">new_tab_test</span>
+                <span class="method-start">37685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=new_tab_test status=SUCCESS method=Demo_Project_Test.new_tab_test()[pri:15, instanc...)</span>
+                <span class="method-start">48870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alerts_test</span>
+                <span class="method-start">49017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=alerts_test status=SUCCESS method=Demo_Project_Test.alerts_test()[pri:16, instance:...)</span>
+                <span class="method-start">55291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">nested_frames_test</span>
+                <span class="method-start">55458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=nested_frames_test status=SUCCESS method=Demo_Project_Test.nested_frames_test()[pri...)</span>
+                <span class="method-start">56267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">model_dialog_test</span>
+                <span class="method-start">56374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=model_dialog_test status=SUCCESS method=Demo_Project_Test.model_dialog_test()[pri:1...)</span>
+                <span class="method-start">58777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">widget_test</span>
+                <span class="method-start">58913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=widget_test status=SUCCESS method=Demo_Project_Test.widget_test()[pri:19, instance:...)</span>
+                <span class="method-start">59096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">accordion_test</span>
+                <span class="method-start">59258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=accordion_test status=SUCCESS method=Demo_Project_Test.accordion_test()[pri:20, ins...)</span>
+                <span class="method-start">60258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">auto_complete_test</span>
+                <span class="method-start">60394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=auto_complete_test status=SUCCESS method=Demo_Project_Test.auto_complete_test()[pri...)</span>
+                <span class="method-start">60765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">progress_bar_test</span>
+                <span class="method-start">60876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=progress_bar_test status=SUCCESS method=Demo_Project_Test.progress_bar_test()[pri:2...)</span>
+                <span class="method-start">61636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tabs_test</span>
+                <span class="method-start">61794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=tabs_test status=SUCCESS method=Demo_Project_Test.tabs_test()[pri:23, instance:Test...)</span>
+                <span class="method-start">62774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tool_tips_test</span>
+                <span class="method-start">62952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=tool_tips_test status=SUCCESS method=Demo_Project_Test.tool_tips_test()[pri:24, ins...)</span>
+                <span class="method-start">63057 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">menu_test</span>
+                <span class="method-start">63242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=menu_test status=SUCCESS method=Demo_Project_Test.menu_test()[pri:25, instance:Test...)</span>
+                <span class="method-start">64597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">select_menu_test</span>
+                <span class="method-start">64729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=select_menu_test status=SUCCESS method=Demo_Project_Test.select_menu_test()[pri:26,...)</span>
+                <span class="method-start">69633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">interations_test</span>
+                <span class="method-start">69750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=interations_test status=SUCCESS method=Demo_Project_Test.interations_test()[pri:27,...)</span>
+                <span class="method-start">69837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sortable_test</span>
+                <span class="method-start">69969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=sortable_test status=SUCCESS method=Demo_Project_Test.sortable_test()[pri:28, insta...)</span>
+                <span class="method-start">70790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectable_test</span>
+                <span class="method-start">70935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=selectable_test status=FAILURE method=Demo_Project_Test.selectable_test()[pri:29, i...)</span>
+                <span class="method-start">71066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">resizable_test</span>
+                <span class="method-start">71219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=resizable_test status=SUCCESS method=Demo_Project_Test.resizable_test()[pri:30, ins...)</span>
+                <span class="method-start">71315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dropable_test</span>
+                <span class="method-start">71483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=dropable_test status=FAILURE method=Demo_Project_Test.dropable_test()[pri:31, insta...)</span>
+                <span class="method-start">91663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">draggable_test</span>
+                <span class="method-start">91803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getresultanalysis([TestResult name=draggable_test status=SUCCESS method=Demo_Project_Test.draggable_test()[pri:32, ins...)</span>
+                <span class="method-start">92004 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
